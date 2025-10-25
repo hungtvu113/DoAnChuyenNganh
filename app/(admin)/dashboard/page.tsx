@@ -47,7 +47,15 @@ const stats = [
   },
 ]
 
-const recentExams = [
+type ExamStatus = "completed" | "ongoing" | "upcoming"
+
+const recentExams: Array<{
+  id: number
+  name: string
+  date: string
+  students: number
+  status: ExamStatus
+}> = [
   {
     id: 1,
     name: "Kỳ thi Tiếng Anh B1",
@@ -78,7 +86,11 @@ const recentExams = [
   },
 ]
 
-const statusConfig = {
+const statusConfig: Record<ExamStatus, {
+  label: string
+  variant: "success" | "default" | "secondary"
+  icon: typeof CheckCircle2
+}> = {
   completed: {
     label: "Hoàn thành",
     variant: "success" as const,
