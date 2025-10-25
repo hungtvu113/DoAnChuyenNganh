@@ -206,19 +206,16 @@ Mọi đóng góp đều được chào đón! Vui lòng:
 4. Push lên branch (`git push origin feature/AmazingFeature`)
 5. Mở Pull Request
 
-## 📄 License
-
-Dự án này được phát hành dưới giấy phép MIT. Xem file `LICENSE` để biết thêm chi tiết.
 
 ## 👨‍💻 Tác giả
 
-**QuizHub Development Team**
+**Trần Tấn Hưng DA22TTD TVU**
 
 ## 📞 Liên hệ
 
-- 📧 Email: support@quizhub.com
-- 🌐 Website: https://quizhub.com
-- 📱 GitHub: https://github.com/your-username/quizhub
+- 📧 Email: tranhunggit@gmail.com
+- 🌐 Website: https://quizhub.vercel.app (đang phát triển)
+- 📱 GitHub: https://github.com/hungtvu113/DoAnChuyenNganh
 
 ## 🙏 Lời cảm ơn
 
